@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Roboto", sans-serif;
+	height: 100%;
+}
+
+body {
+	/* height: 100vh; */
+	display: flex;
+	flex-direction: column;
+	background: #130f0d;
+	color: #f0f0f5;
+}
+
+form {
+	background: rgba(255, 255, 255, 0.03);
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 32px 64px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.input .error {
+	color: red;
+}
+
+button {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	/* box */
+	width: 100%;
+	padding: 16px 0;
+	border: none;
+	/* border-bottom: 1px solid #00e662ff; */
+	background-color: #00e662ff;
+	outline: none;
+	/* text */
+	color: #fff;
+	font-size: 1em;
+}
+
+button:hover {
+	background-color: #00e662dd;
+}
+
+button:active {
+	outline: none;
+}
+
+section {
+	padding: 90px 0;
+}
+
+.carousel-section {
+	background: #000;
+}
+
+.owl-carousel .item {
+	height: auto;
+	width: 100%;
+	padding: 0 10px;
+}
+
+.card-item {
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.card-item:hover .footer {
+	background: #fff;
+	color: #000;
+}
+
+.item .footer {
+	height: 56px;
+	width: 100%;
+	margin-top: -45px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+	background: #000;
+}
+
+.nome {
+	font-weight: bolder;
+	padding-top: 5px;
+}
+
+.owl-nav {
+	position: absolute;
+	bottom: -70px;
+	right: 0;
+	color: #414141;
+	font-size: 20px;
+	padding: 0 10px;
+}
+
+.owl-nav svg {
+	height: 24px;
+	width: 24px;
+	color: #fff;
+}
+
+.owl-nav .owl-prev {
+	float: left;
+	width: 40px;
+}
+
+.owl-nav .owl-prev:hover, .owl-nav .owl-next:hover {
+	color: #fff;
+}
+
+.owl-nav .owl-next {
+	float: right;
+	width: 40px;
+	text-align: right;
+}
+
+.owl-dots {
+	position: absolute;
+	bottom: -70px;
+	left: 0;
+}
+
+.owl-dots .owl-dot {
+	width: 7px;
+	height: 7px;
+	background: #fff;
+	display: inline-block;
+	border-radius: 20px;
+	margin-left: 13px;
+}
+
+.owl-dots .owl-dot.active {
+	background: #00e662ff;
+	transform: scale(1.3);
+}
