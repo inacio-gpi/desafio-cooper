@@ -28,6 +28,14 @@ form {
 	gap: 20px;
 }
 
+.form-check-label {
+	width: 100%;
+}
+
+.form-check-input {
+	bottom: 7px;
+}
+
 .input .error {
 	color: red;
 }

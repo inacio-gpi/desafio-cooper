@@ -45,7 +45,7 @@ var contactForm = function () {
         // select: { valueNotEquals: 'Please select an item!' },
         select: 'Por favor, selecione um item!',
         checkbox: {
-          required: 'Concorde com os termos',
+          required: 'Aceite os termos',
         },
       },
       errorElement: 'span',
